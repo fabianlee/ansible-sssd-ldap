@@ -106,6 +106,7 @@ ldap_group_member = {{ domain.ldap_group_member }}
 {% endif %}
 {% if domain.ldap_tls_cacert is defined %}
 ldap_tls_cacert = {{ domain.ldap_tls_cacert }}
+{% endif %}
 {% if domain.ldap_schema is defined %}
 ldap_schema = {{ domain.ldap_schema }}
 {% endif %}
